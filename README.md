@@ -139,6 +139,8 @@ If you no longer need the Azure resources created by this template, run this com
 azd down
 ```
 
+Azd cannot delete the Entra app registrations created by this template. You can delete the Entra app registrations created by this template by searching for the `ENTRA_APP_CLIENT_CLIENT_ID` and the `ENTRA_APP_SERVER_CLIENT_ID` in Azure Portal and deleting the corresponding app registrations in Portal UI.
+
 If you need to clean up the Power Platform resources, please use the Power Platform UI to delete the Copilot Studio Agent, Power Apps custom connector and connection.
 
 ## Template Structure
