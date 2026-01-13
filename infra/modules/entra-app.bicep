@@ -58,6 +58,7 @@ resource entraApp 'Microsoft.Graph/applications@v1.0' = {
         ]
       }
     ]
+    requestedAccessTokenVersion: 2
   } : null
 }
 
